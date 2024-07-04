@@ -29,11 +29,6 @@ namespace App
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("节点1");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("节点2");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("根", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menu_Top = new System.Windows.Forms.MenuStrip();
             this.menu_sercives = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,7 +42,6 @@ namespace App
             this.menu_mail_send = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_foot = new System.Windows.Forms.StatusStrip();
             this.menu_foot_lblApi = new System.Windows.Forms.ToolStripStatusLabel();
-            this.Left_tree = new System.Windows.Forms.TreeView();
             this.tab_main = new System.Windows.Forms.TabControl();
             this.pageWelcome = new System.Windows.Forms.TabPage();
             this.menu_Top.SuspendLayout();
@@ -152,33 +146,16 @@ namespace App
             this.menu_foot_lblApi.Name = "menu_foot_lblApi";
             this.menu_foot_lblApi.Size = new System.Drawing.Size(0, 17);
             // 
-            // Left_tree
-            // 
-            this.Left_tree.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.Left_tree.Location = new System.Drawing.Point(0, 28);
-            this.Left_tree.Name = "Left_tree";
-            treeNode1.Name = "nodeChild1";
-            treeNode1.Text = "节点1";
-            treeNode2.Name = "nodeChild2";
-            treeNode2.Text = "节点2";
-            treeNode3.Name = "nodeBase";
-            treeNode3.Text = "根";
-            this.Left_tree.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode3});
-            this.Left_tree.Size = new System.Drawing.Size(164, 542);
-            this.Left_tree.TabIndex = 0;
-            // 
             // tab_main
             // 
             this.tab_main.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tab_main.Controls.Add(this.pageWelcome);
-            this.tab_main.Location = new System.Drawing.Point(170, 28);
+            this.tab_main.Location = new System.Drawing.Point(0, 28);
             this.tab_main.Name = "tab_main";
             this.tab_main.SelectedIndex = 0;
-            this.tab_main.Size = new System.Drawing.Size(873, 542);
+            this.tab_main.Size = new System.Drawing.Size(1043, 542);
             this.tab_main.TabIndex = 3;
             // 
             // pageWelcome
@@ -186,7 +163,7 @@ namespace App
             this.pageWelcome.Location = new System.Drawing.Point(4, 22);
             this.pageWelcome.Name = "pageWelcome";
             this.pageWelcome.Padding = new System.Windows.Forms.Padding(3);
-            this.pageWelcome.Size = new System.Drawing.Size(865, 516);
+            this.pageWelcome.Size = new System.Drawing.Size(1035, 516);
             this.pageWelcome.TabIndex = 0;
             this.pageWelcome.Text = "欢迎";
             this.pageWelcome.UseVisualStyleBackColor = true;
@@ -197,7 +174,6 @@ namespace App
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1043, 595);
             this.Controls.Add(this.tab_main);
-            this.Controls.Add(this.Left_tree);
             this.Controls.Add(this.menu_foot);
             this.Controls.Add(this.menu_Top);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -220,7 +196,6 @@ namespace App
         private System.Windows.Forms.ToolStripMenuItem menu_help;
         private System.Windows.Forms.StatusStrip menu_foot;
         private System.Windows.Forms.ToolStripStatusLabel menu_foot_lblApi;
-        private System.Windows.Forms.TreeView Left_tree;
         private System.Windows.Forms.ToolStripMenuItem menu_sercives;
         private System.Windows.Forms.ToolStripMenuItem menu_sercives_port;
         private System.Windows.Forms.ToolStripMenuItem menu_sercives_close;

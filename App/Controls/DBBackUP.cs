@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace App.FormControl
+namespace App.Controls
 {
     public partial class DBBackUP : UserControl
     {

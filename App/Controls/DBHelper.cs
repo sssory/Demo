@@ -1,21 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace App.FormControl
+namespace App.Controls
 {
     public partial class DBHelper : UserControl
     {
         public DBHelper()
         {
-            InitializeComponent(); 
+            InitializeComponent();
         }
 
         private void btnCreate_Click(object sender, EventArgs e)
@@ -57,7 +50,7 @@ namespace App.FormControl
             }
             catch (Exception ex)
             {
-                MessageBox.Show("发生错误"+ex.Message); 
+                MessageBox.Show("发生错误" + ex.Message);
             }
 
         }
@@ -71,12 +64,12 @@ namespace App.FormControl
                 path.SelectedPath = txtFolder.Text;
 
 
-            DialogResult result= path.ShowDialog();
-            if (result ==  DialogResult.OK)
+            DialogResult result = path.ShowDialog();
+            if (result == DialogResult.OK)
             {
                 ((TextBox)sender).Text = path.SelectedPath;
             }
-            
+
         }
     }
 }

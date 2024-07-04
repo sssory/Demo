@@ -152,23 +152,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\AppConfig.cs" />
-    <Compile Include="FormControl\DBBackUP.cs">
+    <Compile Include="Controls\DBBackUP.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FormControl\DBBackUP.Designer.cs">
+    <Compile Include="Controls\DBBackUP.Designer.cs">
       <DependentUpon>DBBackUP.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormControl\DBHelper.cs">
+    <Compile Include="Controls\DBHelper.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FormControl\DBHelper.Designer.cs">
+    <Compile Include="Controls\DBHelper.Designer.cs">
       <DependentUpon>DBHelper.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormControl\MButton.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="FormControl\MButton.Designer.cs">
-      <DependentUpon>MButton.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SercivesAddress.cs">
       <SubType>Form</SubType>
@@ -188,14 +182,11 @@
     <Compile Include="WebAPI\Controllers\WashingLineController.cs" />
     <Compile Include="WebAPI\Startup.cs" />
     <Compile Include="WebAPI\WebApiSercives.cs" />
-    <EmbeddedResource Include="FormControl\DBBackUP.resx">
+    <EmbeddedResource Include="Controls\DBBackUP.resx">
       <DependentUpon>DBBackUP.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormControl\DBHelper.resx">
+    <EmbeddedResource Include="Controls\DBHelper.resx">
       <DependentUpon>DBHelper.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormControl\MButton.resx">
-      <DependentUpon>MButton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SercivesAddress.resx">
       <DependentUpon>SercivesAddress.cs</DependentUpon>

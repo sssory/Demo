@@ -1,5 +1,5 @@
 ﻿
-namespace App.FormControl
+namespace App.Controls
 {
     partial class DBBackUP
     {

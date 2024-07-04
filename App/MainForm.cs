@@ -50,7 +50,7 @@ namespace App
 
             tab_main.TabPages.Add(tabPage);
 
-            FormControl.DBHelper helper = new FormControl.DBHelper();
+            Controls.DBHelper helper = new Controls.DBHelper();
             tabPage.Controls.Add(helper);
 
             helper.Height = tabPage.Height;
@@ -65,7 +65,7 @@ namespace App
 
             tab_main.TabPages.Add(tabPage);
 
-            FormControl.DBBackUP backup = new FormControl.DBBackUP();
+            Controls.DBBackUP backup = new Controls.DBBackUP();
 
             tabPage.Controls.Add(backup);
 
