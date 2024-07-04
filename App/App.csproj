@@ -152,6 +152,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\AppConfig.cs" />
+    <Compile Include="Common\SendHttp.cs" />
+    <Compile Include="Common\TabHelper.cs" />
     <Compile Include="Controls\DBBackUP.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -219,10 +221,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Http\Http.csproj">
-      <Project>{4d7fb6f6-129a-4be3-9371-0c82aede8e57}</Project>
-      <Name>Http</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{d87ccb0f-8916-4f6d-918d-7f5fe5db779b}</Project>
       <Name>Model</Name>

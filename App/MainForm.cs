@@ -1,5 +1,4 @@
-﻿using Http;
-using Model;
+﻿using Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,6 +21,7 @@ namespace App
             InitializeComponent();
             DoSomething(LoadState);
         }
+
         #region menu
 
         private void menu_sercives_port_Click(object sender, EventArgs e)
@@ -46,31 +46,53 @@ namespace App
             //创建选项卡
             TabPage tabPage = new TabPage();
             tabPage.Text = "生成实体";
+            tabPage.Name = "DBHelper";
+            if (!tab_main.TabPages.ContainsKey(tabPage.Name))
+            {
+                tab_main.TabPages.Add(tabPage);
+                tab_main.SelectedIndex = tab_main.TabPages.IndexOf(tabPage);
+                Controls.DBHelper dbhelper = new Controls.DBHelper();
+                tabPage.Controls.Add(dbhelper);
+                dbhelper.Height = tabPage.Height;
+                dbhelper.Width = tabPage.Width;
+            }
+            else
+            {
+                foreach (TabPage item in tab_main.TabPages)
+                {
+                    if (item.Name == tabPage.Name)
+                    {
+                        tab_main.SelectedIndex = tab_main.TabPages.IndexOf(item);
+                    }
+                }
+            }
 
-
-            tab_main.TabPages.Add(tabPage);
-
-            Controls.DBHelper helper = new Controls.DBHelper();
-            tabPage.Controls.Add(helper);
-
-            helper.Height = tabPage.Height;
-            helper.Width = tabPage.Width;
         }
         private void menu_help_backup_Click(object sender, EventArgs e)
         {
             //创建选项卡
             TabPage tabPage = new TabPage();
             tabPage.Text = "数据备份";
-
-
-            tab_main.TabPages.Add(tabPage);
-
-            Controls.DBBackUP backup = new Controls.DBBackUP();
-
-            tabPage.Controls.Add(backup);
-
-            backup.Height = tabPage.Height;
-            backup.Width = tabPage.Width;
+            tabPage.Name = "DBBackUP";
+            if (!tab_main.TabPages.ContainsKey(tabPage.Name))
+            {
+                tab_main.TabPages.Add(tabPage);
+                tab_main.SelectedIndex = tab_main.TabPages.IndexOf(tabPage);
+                Controls.DBBackUP backup = new Controls.DBBackUP();
+                tabPage.Controls.Add(backup);
+                backup.Height = tabPage.Height;
+                backup.Width = tabPage.Width;
+            }
+            else
+            {
+                foreach (TabPage item in tab_main.TabPages)
+                {
+                    if (item.Name == tabPage.Name)
+                    { 
+                        tab_main.SelectedIndex = tab_main.TabPages.IndexOf(item);
+                    }
+                }
+            }
         } 
         private void menu_mail_send_Click(object sender, EventArgs e)
         {

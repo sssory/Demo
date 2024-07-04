@@ -180,7 +180,7 @@ namespace App
             this.MainMenuStrip = this.menu_Top;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "WinForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menu_Top.ResumeLayout(false);
             this.menu_Top.PerformLayout();
             this.menu_foot.ResumeLayout(false);
