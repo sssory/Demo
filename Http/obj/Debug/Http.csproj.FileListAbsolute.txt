@@ -1,0 +1,14 @@
+E:\code\Demo\Http\bin\Debug\Http.dll.config
+E:\code\Demo\Http\bin\Debug\Http.dll
+E:\code\Demo\Http\bin\Debug\Http.pdb
+E:\code\Demo\Http\obj\Debug\Http.csproj.AssemblyReference.cache
+E:\code\Demo\Http\obj\Debug\Http.csproj.CoreCompileInputs.cache
+E:\code\Demo\Http\obj\Debug\Http.dll
+E:\code\Demo\Http\obj\Debug\Http.pdb
+D:\UserBackup\su-fj\桌面\code\Demo\Http\bin\Debug\Http.dll.config
+D:\UserBackup\su-fj\桌面\code\Demo\Http\bin\Debug\Http.dll
+D:\UserBackup\su-fj\桌面\code\Demo\Http\bin\Debug\Http.pdb
+D:\UserBackup\su-fj\桌面\code\Demo\Http\obj\Debug\Http.csproj.AssemblyReference.cache
+D:\UserBackup\su-fj\桌面\code\Demo\Http\obj\Debug\Http.csproj.CoreCompileInputs.cache
+D:\UserBackup\su-fj\桌面\code\Demo\Http\obj\Debug\Http.dll
+D:\UserBackup\su-fj\桌面\code\Demo\Http\obj\Debug\Http.pdb

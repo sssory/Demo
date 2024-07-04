@@ -1,0 +1,9 @@
+E:\code\Demo\Model\bin\Release\Model.dll
+E:\code\Demo\Model\bin\Release\Model.pdb
+E:\code\Demo\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+E:\code\Demo\Model\obj\Release\Model.dll
+E:\code\Demo\Model\obj\Release\Model.pdb
+E:\code\Demo\Model\bin\Release\SqlSugar.dll
+E:\code\Demo\Model\bin\Release\System.Configuration.ConfigurationManager.dll
+E:\code\Demo\Model\bin\Release\System.Configuration.ConfigurationManager.xml
+E:\code\Demo\Model\obj\Release\Model.csproj.CopyComplete
