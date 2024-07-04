@@ -1,7 +1,0 @@
-E:\code\Demo\Http\bin\Release\Http.dll.config
-E:\code\Demo\Http\bin\Release\Http.dll
-E:\code\Demo\Http\bin\Release\Http.pdb
-E:\code\Demo\Http\obj\Release\Http.csproj.CoreCompileInputs.cache
-E:\code\Demo\Http\obj\Release\Http.dll
-E:\code\Demo\Http\obj\Release\Http.pdb
-E:\code\Demo\Http\obj\Release\Http.csproj.AssemblyReference.cache
