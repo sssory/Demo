@@ -170,10 +170,10 @@
     <Compile Include="FormControl\MButton.Designer.cs">
       <DependentUpon>MButton.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\sercives\SercivesAddress.cs">
+    <Compile Include="Forms\SercivesAddress.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\sercives\SercivesAddress.Designer.cs">
+    <Compile Include="Forms\SercivesAddress.Designer.cs">
       <DependentUpon>SercivesAddress.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
@@ -197,7 +197,7 @@
     <EmbeddedResource Include="FormControl\MButton.resx">
       <DependentUpon>MButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\sercives\SercivesAddress.resx">
+    <EmbeddedResource Include="Forms\SercivesAddress.resx">
       <DependentUpon>SercivesAddress.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">

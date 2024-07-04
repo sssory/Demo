@@ -43,7 +43,6 @@ namespace App
             this.menu_help = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_help_backup = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_help_mysql = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_help_reset = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_mail = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_mail_send = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_foot = new System.Windows.Forms.StatusStrip();
@@ -104,8 +103,7 @@ namespace App
             // 
             this.menu_help.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menu_help_backup,
-            this.menu_help_mysql,
-            this.menu_help_reset});
+            this.menu_help_mysql});
             this.menu_help.Name = "menu_help";
             this.menu_help.Size = new System.Drawing.Size(44, 21);
             this.menu_help.Text = "帮助";
@@ -113,23 +111,16 @@ namespace App
             // menu_help_backup
             // 
             this.menu_help_backup.Name = "menu_help_backup";
-            this.menu_help_backup.Size = new System.Drawing.Size(124, 22);
+            this.menu_help_backup.Size = new System.Drawing.Size(180, 22);
             this.menu_help_backup.Text = "数据备份";
             this.menu_help_backup.Click += new System.EventHandler(this.menu_help_backup_Click);
             // 
             // menu_help_mysql
             // 
             this.menu_help_mysql.Name = "menu_help_mysql";
-            this.menu_help_mysql.Size = new System.Drawing.Size(124, 22);
+            this.menu_help_mysql.Size = new System.Drawing.Size(180, 22);
             this.menu_help_mysql.Text = "生成实体";
             this.menu_help_mysql.Click += new System.EventHandler(this.menu_help_mysql_Click);
-            // 
-            // menu_help_reset
-            // 
-            this.menu_help_reset.Name = "menu_help_reset";
-            this.menu_help_reset.Size = new System.Drawing.Size(124, 22);
-            this.menu_help_reset.Text = "初始化库";
-            this.menu_help_reset.Click += new System.EventHandler(this.menu_help_reset_Click);
             // 
             // menu_mail
             // 
@@ -236,7 +227,6 @@ namespace App
         private System.Windows.Forms.ToolStripMenuItem menu_sercives_open;
         private System.Windows.Forms.TabControl tab_main;
         private System.Windows.Forms.ToolStripMenuItem menu_help_mysql;
-        private System.Windows.Forms.ToolStripMenuItem menu_help_reset;
         private System.Windows.Forms.ToolStripMenuItem menu_help_backup;
         private System.Windows.Forms.ToolStripMenuItem menu_mail;
         private System.Windows.Forms.ToolStripMenuItem menu_mail_send;

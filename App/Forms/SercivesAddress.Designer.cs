@@ -1,5 +1,5 @@
 ﻿
-namespace App.Forms.sercives
+namespace App.Forms
 {
     partial class SercivesAddress
     {

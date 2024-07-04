@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using System.Windows.Forms;
 
-namespace App.Forms.sercives
+namespace App.Forms
 {
     public partial class SercivesAddress : Form
     {

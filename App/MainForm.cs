@@ -27,7 +27,7 @@ namespace App
         private void menu_sercives_port_Click(object sender, EventArgs e)
         {
 
-            Forms.sercives.SercivesAddress sercivesAddress = new Forms.sercives.SercivesAddress();
+            Forms.SercivesAddress sercivesAddress = new Forms.SercivesAddress();
             sercivesAddress.StartPosition = FormStartPosition.CenterScreen;
             sercivesAddress.ShowDialog();
         }
@@ -71,11 +71,7 @@ namespace App
 
             backup.Height = tabPage.Height;
             backup.Width = tabPage.Width;
-        }
-        private void menu_help_reset_Click(object sender, EventArgs e)
-        {
-
-        }
+        } 
         private void menu_mail_send_Click(object sender, EventArgs e)
         {
             string userName = "15367308740@163.com";// 发送端账号   
