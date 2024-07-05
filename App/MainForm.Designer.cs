@@ -176,11 +176,11 @@ namespace App
             this.Controls.Add(this.tab_main);
             this.Controls.Add(this.menu_foot);
             this.Controls.Add(this.menu_Top);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menu_Top;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menu_Top.ResumeLayout(false);
             this.menu_Top.PerformLayout();
             this.menu_foot.ResumeLayout(false);

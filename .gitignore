@@ -5,7 +5,5 @@
 .vs
 App/bin
 App/obj
-Http/bin
-Http/obj
 Model/bin
 Model/obj
